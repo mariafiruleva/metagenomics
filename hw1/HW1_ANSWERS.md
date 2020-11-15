@@ -38,6 +38,7 @@ $ grep '>' SUMMARY/bin_by_bin/MY_BINS/MY_BINS-Ribosomal_RNAs-hmm-sequences.txt |
 ```
 
 The genome contains contigs which match with both Archaeal_23S_rRNA and Bacterial_16S_rRNA genes. 
+However, blastn shows a lot of significant matches with *Escherichia coli*.
 
 #### 2) Does every gene in this genome occur in every individual?
 
