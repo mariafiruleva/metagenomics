@@ -1,0 +1,38 @@
+---
+title: 'hw1: metagenomics'
+author: "Maria Firulyova"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+```
+
+## Load libraries
+
+```{r}
+library(data.table)
+library(dplyr)
+```
+
+## Read data
+
+```{r}
+g_d <- fread('mystery_bins-GENE-DETECTION.txt') %>% tibble::column_to_rownames(var = 'key')
+colnames(g_d) <- gsub('_.*', '', colnames(g_d))
+g_c <- fread('mystery_bins-GENE-COVERAGES.txt')
+colnames(g_c) <- gsub('_.*', '', colnames(g_c))
+```
+
+## Get genes which are not detected in some individuals
+
+```{r}
+target_genes <- g_d[apply(g_d, 1, function(x) sum(x) < 4),]
+knitr::kable(target_genes)
+```
+
+## Get coverage values for chosen genes
+
+```{r}
+knitr::kable(g_c %>% filter(grepl('3161|3162', key)))
+```

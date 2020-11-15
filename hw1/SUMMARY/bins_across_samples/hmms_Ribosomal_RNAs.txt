@@ -1,0 +1,2 @@
+bins	Archaeal_16S_rRNA	Archaeal_23S_rRNA	Archaeal_5S_rRNA	Archaeal_5_8S_rRNA	Bacterial_16S_rRNA	Bacterial_23S_rRNA	Bacterial_5S_rRNA	Eukaryotic_28S_rRNA	Eukaryotic_5S_rRNA	Eukaryotic_5_8S_rRNA	Mitochondrial_12S_rRNA	Mitochondrial_16S_rRNA
+MY_BINS	0	7	0	0	7	0	0	0	0	0	0	0

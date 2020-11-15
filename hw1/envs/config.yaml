@@ -1,0 +1,9 @@
+channels:
+ - defaults
+ - conda-forge
+ - bioconda
+dependencies:
+ - anvio=6.2.0
+ - cherrypy=8.0.0
+ - bowtie2=2.4.1
+ - samtools=1.10

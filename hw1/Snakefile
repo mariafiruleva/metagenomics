@@ -1,0 +1,10 @@
+import glob
+import re
+
+names = set(map(lambda x: re.sub('.*/|-.*', '', x), glob.glob('metagenomes/*')))
+
+include: "rules/get_alignment.smk"
+include: "rules/get_profiles.smk"
+
+rule all:
+    input: "merged_profiles"

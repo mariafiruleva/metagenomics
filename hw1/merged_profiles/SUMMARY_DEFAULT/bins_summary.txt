@@ -1,0 +1,2 @@
+bins	taxon	total_length	num_contigs	N50	GC_content	percent_completion	percent_redundancy
+MY_BINS	Unknown	5273097	1	5273097	50.711284692772054	100.0	0.0

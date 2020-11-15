@@ -1,0 +1,44 @@
+[15 Nov 20 15:16:35] WARNING
+===============================================
+Anvi'o just set the normalization values for each sample based on how many
+mapped reads they contained. This information will only be used to calculate the
+normalized coverage table. Here are those values: ANDREA_MYSTERY_GENOME_SORTED:
+0.93, EMILY_MYSTERY_GENOME_SORTED: 0.80, EVAN_MYSTERY_GENOME_SORTED: 1.00,
+ISAAC_MYSTERY_GENOME_SORTED: 0.53, KAREN_MYSTERY_GENOME_SORTED: 0.46
+[15 Nov 20 15:16:35] profiler_version .............................: 31
+[15 Nov 20 15:16:35] output_dir ...................................: /home/marina/master/metagenomics/hw1/momics-week-02-data-analysis-assignment/merged_profiles
+[15 Nov 20 15:16:35] sample_id ....................................: merged_profiles
+[15 Nov 20 15:16:35] description ..................................: None
+[15 Nov 20 15:16:35] profile_db ...................................: /home/marina/master/metagenomics/hw1/momics-week-02-data-analysis-assignment/merged_profiles/PROFILE.db
+[15 Nov 20 15:16:35] merged .......................................: True
+[15 Nov 20 15:16:35] contigs_db_hash ..............................: hash49528338
+[15 Nov 20 15:16:35] num_runs_processed ...........................: 5
+[15 Nov 20 15:16:35] merged_sample_ids ............................: ANDREA_MYSTERY_GENOME_SORTED, EMILY_MYSTERY_GENOME_SORTED, EVAN_MYSTERY_GENOME_SORTED, ISAAC_MYSTERY_GENOME_SORTED, KAREN_MYSTERY_GENOME_SORTED
+[15 Nov 20 15:16:35] Common layer additional data keys ............: default
+[15 Nov 20 15:16:35] total_reads_mapped ...........................: 1054265, 1218421, 975599, 1845044, 2108547
+[15 Nov 20 15:16:35] cmd_line .....................................: /home/marina/master/metagenomics/hw1/momics-week-02-data-analysis-assignment/ad9cf265/bin/anvi-merge evan-mystery_genome-profile/PROFILE.db andrea-mystery_genome-profile/PROFILE.db isaac-mystery_genome-profile/PROFILE.db emily-mystery_genome-profile/PROFILE.db karen-mystery_genome-profile/PROFILE.db -c genomes/mystery_genome.db -o merged_profiles
+[15 Nov 20 15:16:35] clustering_performed .........................: True
+[15 Nov 20 15:16:37] WARNING
+===============================================
+Codon frequencies were not profiled, hence, these tables will be empty in the
+merged profile database.
+[15 Nov 20 15:16:37] * Anvi'o hierarchical clustering of contigs...
+[15 Nov 20 15:16:37] New items order ..............................: "tnf-cov:euclidean:ward" (type newick) has been added to the database...
+[15 Nov 20 15:16:37] New items order ..............................: "cov:euclidean:ward" (type newick) has been added to the database...
+[15 Nov 20 15:16:37] New items order ..............................: "tnf:euclidean:ward" (type newick) has been added to the database...
+[15 Nov 20 15:16:37] * Additional data and layer orders...
+[15 Nov 20 15:16:37] Layer orders added
+===============================================
+[15 Nov 20 15:16:37] * std_coverage
+[15 Nov 20 15:16:37] * mean_coverage
+[15 Nov 20 15:16:37] * mean_coverage_Q2Q3
+[15 Nov 20 15:16:37] * max_normalized_ratio
+[15 Nov 20 15:16:37] * relative_abundance
+[15 Nov 20 15:16:37] * detection
+[15 Nov 20 15:16:37] * abundance
+[15 Nov 20 15:16:37] * variability
+[15 Nov 20 15:16:37] Data groups added
+===============================================
+[15 Nov 20 15:16:37] * default (w/2 items)
+[15 Nov 20 15:16:37] * Happy 
+[15 Nov 20 15:16:37] Bye.

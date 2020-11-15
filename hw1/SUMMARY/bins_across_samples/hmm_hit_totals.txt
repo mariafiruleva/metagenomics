@@ -1,0 +1,2 @@
+bins	Ribosomal_RNAs
+MY_BINS	14
