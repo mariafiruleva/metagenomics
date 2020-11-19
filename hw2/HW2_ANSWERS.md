@@ -41,23 +41,40 @@ The answer is 2.
 
 #### 3) Which species name would you annotate these genomes with?
 
-For this purpose, I extracted AA sequence for the SGC and use blastp.
+For this purpose, I used blastn for each contig fasta file
 
-Bifidobacterium breve, Bifidobacterium longum, Bifidobacterium felsineum, Bifidobacterium rousetti, etc.
+* 1 - Bifidobacterium adolescentis ATCC
+* 2 - Bifidobacterium adolescentis strain 22L
+* 3 - Bifidobacterium adolescentis isolate MGYG-HGUT-02395
+* 4 - Bifidobacterium adolescentis strain 1-11
+* 5 - Bifidobacterium adolescentis strain
+* 6 - Bifidobacterium breve 12L
+* 7 - Bifidobacterium breve 689b
+* 8 - Bifidobacterium breve JCM 7019
+* 9 -Bifidobacterium breve NCFB 2258
+* 10 - Bifidobacterium breve S27
+* 11 -Bifidobacterium longum subsp. longum GT15
+* 12 - Bifidobacterium longum strain Su859
+* 13 - Bifidobacterium longum isolate MGYG-HGUT-01292
+* 14 - Bifidobacterium longum subsp. infantis CECT7210 
+* 15 - Bifidobacterium longum subsp. longum F8
 
 #### 4) According to gene clusters, which two species of Bifidobacterium in this mixture are most closely related?
 
 ![](figs/close_sp.png)
 
-Let's blast both B14 contigs and B15 contigs, and both B9 and B7 contigs. (see `gene_cluster.fa` file).
+I see that both B14/B15 and B7/B9 contig pairs have close phylogenetics relationships.
 
-B7: *Bifidobacterium longum*
+As for B7/B9, organisms are:
 
-B9: *Bifidobacterium breve*
+* 7 - Bifidobacterium breve 689b
+* 9 -Bifidobacterium breve NCFB 2258
 
-B14: *Bifidobacterium longum*
-
-B15: *Bifidobacterium longum*
+As for B14/B15, organisms are:
+* 14 - Bifidobacterium longum subsp. infantis CECT7210 
+* 15 - Bifidobacterium longum subsp. longum F8
+ 
 
 #### 5) What are the most enriched functions for each of the major clades in the final pangenome? (Pro tip: functional enrichment analysis is covered in the tutorial).
 
+The answer is HMO consumption.
