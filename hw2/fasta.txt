@@ -1,0 +1,16 @@
+name	path
+B1	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_01.fa
+B2	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_02.fa
+B3	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_03.fa
+B4	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_04.fa
+B5	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_05.fa
+B6	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_06.fa
+B7	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_07.fa
+B8	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_08.fa
+B9	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_09.fa
+B10	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_10.fa
+B11	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_11.fa
+B12	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_12.fa
+B13	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_13.fa
+B14	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_14.fa
+B15	/home/marina/master/metagenomics/metagenomics/hw2/Bifidobacterium_genomes/Bifido_15.fa

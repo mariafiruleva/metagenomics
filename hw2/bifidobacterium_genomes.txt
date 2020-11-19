@@ -1,0 +1,16 @@
+name	contigs_db_path
+B1_contigs	02_CONTIGS_contigs_workflow/B1-contigs.db
+B2_contigs	02_CONTIGS_contigs_workflow/B2-contigs.db
+B3_contigs	02_CONTIGS_contigs_workflow/B3-contigs.db
+B4_contigs	02_CONTIGS_contigs_workflow/B4-contigs.db
+B5_contigs	02_CONTIGS_contigs_workflow/B5-contigs.db
+B6_contigs	02_CONTIGS_contigs_workflow/B6-contigs.db
+B7_contigs	02_CONTIGS_contigs_workflow/B7-contigs.db
+B8_contigs	02_CONTIGS_contigs_workflow/B8-contigs.db
+B9_contigs	02_CONTIGS_contigs_workflow/B9-contigs.db
+B10_contigs	02_CONTIGS_contigs_workflow/B10-contigs.db
+B11_contigs	02_CONTIGS_contigs_workflow/B11-contigs.db
+B12_contigs	02_CONTIGS_contigs_workflow/B12-contigs.db
+B13_contigs	02_CONTIGS_contigs_workflow/B13-contigs.db
+B14_contigs	02_CONTIGS_contigs_workflow/B14-contigs.db
+B15_contigs	02_CONTIGS_contigs_workflow/B15-contigs.db
